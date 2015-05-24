@@ -1,0 +1,43 @@
+// SIZE CONTROL VARS
+$size-control-placeholder: 530px;
+$banner-height: 350px; // Banners
+$site-menu-width-control: 101px; // Site menu
+$menu-list-icons-width: 35px;
+$mobile-navbar-height: 56px; // Mobile header
+$user-card-height: 42px; // User cards
+$user-card-width: 70px;
+
+html,
+body {
+	background-color: $body-bg;	
+	&::-webkit-scrollbar { 
+    display: none; }
+	}
+body, h1, h2 {
+  font-family:Muli-Light !important;
+}
+
+.site-wrapper,
+.site-content {
+	position: relative;
+}
+.content-border{
+	border: 1px solid #ccc;
+  padding: 30px 17px;
+  height: 179px;
+  width: 378px;
+}
+
+.icon-us > img {
+	width: 80%;
+}
+.border-name-header{
+    border: 4px solid white;
+    height: 185px;
+    padding: 8%;
+}
+ .footer  {
+  min-height: 97px;
+  background-color: #191919;
+  width: 100%;
+}
